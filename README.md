@@ -1,5 +1,4 @@
 # CNN-Transformer
-A multi-modal hybrid CNN-Transformer surrogate model for simulating and optimizing geological carbon sequestration
 
 Directories:
 
