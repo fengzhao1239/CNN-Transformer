@@ -1,3 +1,35 @@
 The dataset is too big. So it was uploaded to online drive. The link is:
 
 https://yunpan.tongji.edu.cn/link/AA01B7FB3C21484287A88892B7C1F49E2F
+
+Dataset is in hdf5 form, structured as:
+
+            dataset.hdf5
+            
+            |--training_set (sub-group)
+                |--input_features (sub_sub-group)
+                    |-static
+                    |-dynamic
+                |--output_labels (sub_sub-group)
+                    |-pressure
+                    |-saturation
+                    |-fraction
+            
+            |--validation_set (sub-group)
+                |--input_features (sub_sub-group)
+                    |-static
+                    |-dynamic
+                |--output_labels (sub_sub-group)
+                    |-pressure
+                    |-saturation
+                    |-fraction
+            
+            |--test_set (sub-group)
+                |--input_features (sub_sub-group)
+                    |-static
+                    |-dynamic
+                |--output_labels (sub_sub-group)
+                    |-pressure
+                    |-saturation
+                    |-fraction
+
