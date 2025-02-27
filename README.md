@@ -7,7 +7,7 @@ The optimization of well controls over time constitutes an essential step in the
 In this paper, we propose a hybrid *CNN-Transformer* surrogate model to accelerate the well control optimization in GCS applications. The surrogate model encompasses a Convolution Neural Network (CNN) encoder to compress high-dimensional geological parameters, a Transformer processor to learn global patterns inherent in the well controls over time, and a CNN decoder to map the latent variables to the target solution variables.   
 ![Neural Network](https://github.com/fengzhao1239/CNN-Transformer/blob/main/assets/neural%20network.jpg)
 
-## Numerical experiment
+## Numerical Experiment
 The surrogate model is trained to predict the spatiotemporal evolution of CO2 saturation and pressure within 3D heterogeneous permeability fields under dynamic CO2 injection rates. Results demonstrate that the surrogate model exhibits satisfactory performance in the context of prediction accuracy, computation efficiency, data scalability, and out-of-distribution generalizability.   
 ![Numerical Model](https://github.com/fengzhao1239/CNN-Transformer/blob/main/assets/numerical%20model.jpg)  
 
