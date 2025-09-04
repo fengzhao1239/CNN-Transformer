@@ -1,6 +1,8 @@
 The dataset is too big. So it was uploaded to online drive. The link is:
 
-https://yunpan.tongji.edu.cn/link/AA01B7FB3C21484287A88892B7C1F49E2F
+https://yunpan.tongji.edu.cn/link/AAE90B79E4E5A84742B57A793C64B38B3C
+文件名：dataset_4_wells_new.hdf5
+有效期限：永久有效
 
 Dataset is in hdf5 form, structured as:
 
@@ -32,4 +34,5 @@ Dataset is in hdf5 form, structured as:
                     |-pressure
                     |-saturation
                     |-fraction
+
 
